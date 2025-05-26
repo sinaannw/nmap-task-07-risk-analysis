@@ -1,0 +1,46 @@
+# Nmap 7.95 scan initiated Mon May 26 14:07:26 2025 as: /usr/lib/nmap/nmap --privileged -sS -oN scan_results.txt 192.168.1.0/24
+Nmap scan report for 192.168.1.1
+Host is up (0.0053s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT    STATE    SERVICE
+21/tcp  open     ftp
+22/tcp  filtered ssh
+53/tcp  open     domain
+80/tcp  open     http
+443/tcp open     https
+MAC Address: 20:0C:86:55:19:E0 (GX India Pvt)
+
+Nmap scan report for 192.168.1.33
+Host is up (0.013s latency).
+Not shown: 998 closed tcp ports (reset)
+PORT      STATE SERVICE
+49152/tcp open  unknown
+62078/tcp open  iphone-sync
+MAC Address: 0E:50:B9:D3:6B:1F (Unknown)
+
+Nmap scan report for 192.168.1.42
+Host is up (0.011s latency).
+All 1000 scanned ports on 192.168.1.42 are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+MAC Address: E2:AA:A1:13:15:6C (Unknown)
+
+Nmap scan report for 192.168.1.44
+Host is up (0.061s latency).
+All 1000 scanned ports on 192.168.1.44 are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+MAC Address: CA:B5:6E:BC:CC:93 (Unknown)
+
+Nmap scan report for 192.168.1.45
+Host is up (0.11s latency).
+All 1000 scanned ports on 192.168.1.45 are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+MAC Address: 7E:EE:48:6E:26:C4 (Unknown)
+
+Nmap scan report for 192.168.1.37
+Host is up (0.000014s latency).
+Not shown: 998 closed tcp ports (reset)
+PORT     STATE SERVICE
+8000/tcp open  http-alt
+8089/tcp open  unknown
+
+# Nmap done at Mon May 26 14:07:56 2025 -- 256 IP addresses (6 hosts up) scanned in 29.82 seconds
